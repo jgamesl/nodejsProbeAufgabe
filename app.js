@@ -12,10 +12,10 @@ const mysql = require('mysql');
 
 const db = mysql.createConnection({
     host: '64.227.57.177',
-    user : 'root@64.227.57.177',
+    user : 'root',
     password : 'guitarra5',
     database : 'klimadaten',
-    connectTimeout: 50000
+    port: 3306,
 });
 
 //Connect
