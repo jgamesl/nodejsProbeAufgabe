@@ -3,8 +3,15 @@ const cors = require('cors');
 const mysql = require('mysql');
 
 // Create connection
+// const db = mysql.createConnection({
+//     host: 'localhost',
+//     user : 'root',
+//     password : '',
+//     database : 'klimadaten'
+// });
+
 const db = mysql.createConnection({
-    host: 'localhost',
+    host: 'http://64.227.57.177/',
     user : 'root',
     password : '',
     database : 'klimadaten'
