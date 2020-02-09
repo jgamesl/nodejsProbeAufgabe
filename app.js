@@ -14,7 +14,8 @@ const db = mysql.createConnection({
     host: '64.227.57.177',
     user : 'root',
     password : 'guitarra5',
-    database : 'klimadaten'
+    database : 'klimadaten',
+    connectTimeout: 30000
 });
 
 //Connect
