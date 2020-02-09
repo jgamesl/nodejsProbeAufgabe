@@ -164,6 +164,6 @@ app.get('/getparameter/txk/parameters/:params/:von_datum/:bis_datum',cors(corsOp
 // ->whereDate('produkt_klima_tag.mess_datum','<=',$request->bis_Datum)->paginate(10);
 
 
-app.listen('3100', () =>{
+app.listen('3200', () =>{
     console.log("Server started in port 3100");
 })
