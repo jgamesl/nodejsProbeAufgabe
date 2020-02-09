@@ -1,0 +1,19 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "database klima",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "ng2-charts": "^2.3.0",
+    "nodemon": "^2.0.2"
+  }
+}
