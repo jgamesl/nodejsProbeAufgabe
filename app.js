@@ -11,9 +11,9 @@ const mysql = require('mysql');
 // });
 
 const db = mysql.createConnection({
-    host: '64.227.57.177',
+    host: '64.227.57.177:3306',
     user : 'root',
-    password : '',
+    password : 'guitarra5',
     database : 'klimadaten'
 });
 
