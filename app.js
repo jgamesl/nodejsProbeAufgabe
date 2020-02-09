@@ -13,7 +13,7 @@ const mysql = require('mysql');
 const db = mysql.createConnection({
     host: '64.227.57.177',
     user : 'root',
-    password : 'guitarra5',
+    password : '',
     database : 'klimadaten'
 });
 
