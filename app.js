@@ -11,9 +11,9 @@ const mysql = require('mysql');
 // });
 
 const db = mysql.createConnection({
-    host: '64.227.57.177:3306',
+    host: '64.227.57.177',
     user : 'root',
-    password : 'guitarra5',
+    password : '',
     database : 'klimadaten'
 });
 
@@ -164,6 +164,6 @@ app.get('/getparameter/txk/parameters/:params/:von_datum/:bis_datum',cors(corsOp
 // ->whereDate('produkt_klima_tag.mess_datum','<=',$request->bis_Datum)->paginate(10);
 
 
-app.listen('3200', () =>{
-    console.log("Server started in port 3100");
+app.listen('3000', () =>{
+    console.log("Server started in port 3000");
 })
