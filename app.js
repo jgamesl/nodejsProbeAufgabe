@@ -3,20 +3,20 @@ const cors = require('cors');
 const mysql = require('mysql');
 
 // Create connection
-// const db = mysql.createConnection({
-//     host: 'localhost',
-//     user : 'root',
-//     password : '',
-//     database : 'klimadaten'
-// });
-
 const db = mysql.createConnection({
-    host: '64.227.57.177',
+    host: 'localhost',
     user : 'root',
-    password : 'guitarra5',
-    database : 'klimadaten',
-    port: 3306,
+    password : '',
+    database : 'klimadaten'
 });
+
+// const db = mysql.createConnection({
+//     host: '64.227.57.177', 
+//     user : 'mysql',
+//     password : '',
+//     database : 'klimadaten',
+//     // port: 3306,
+// });
 
 //Connect
 db.connect((err) => {
@@ -34,7 +34,8 @@ const allowedOrigins = [
     'ionic://localhost',
     'http://localhost',
     'http://localhost:8080',
-    'http://localhost:8100'
+    'http://localhost:8100',
+    // 'http://64.227.57.177'
   ];
 
   // Reflect the origin if it's in the allowed list or not defined (cURL, Postman, etc.)
